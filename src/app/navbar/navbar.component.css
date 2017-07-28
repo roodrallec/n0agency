@@ -1,0 +1,9 @@
+/* navbar */
+.navbar-light {
+    background-color: black;
+    border-color: black;
+}
+
+.nav-link {
+  color: white;
+}

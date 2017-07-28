@@ -1,0 +1,47 @@
+.about-body {
+  display: table;
+  width: 100%;
+  height: auto;
+  /*padding: 0 0;*/
+  text-align: center;
+  color: white;
+  background-color: black;
+  z-index: 1;
+}
+
+.say-no {
+  background-color: black;
+  color: white;
+}
+
+.say-yes {
+  background-color: white;
+  color: black;
+}
+
+img.say-yes {
+  height:100px;
+  width:100px;
+}
+
+img.say-no {
+  height:100px;
+  width:100px;
+}
+/*div.img-div{
+    height:300px;
+    width:300px;
+    overflow:hidden;
+    border-radius:50%;
+}
+
+.img-div img{
+    -webkit-transform:translate(-50%);
+    margin-left:150px;
+}*/
+
+/*.about-body {
+  background: url("/assets/images/london_sky.png") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+}*/

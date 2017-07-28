@@ -1,0 +1,25 @@
+.intro-body {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 100px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  z-index: 1;
+}
+.intro-image {
+  /*z-index: 1;*/
+}
+/*@media (min-width: 768px) {
+  .intro {
+    height: 100%;
+    padding: 0;
+  }
+  .intro .intro-body .brand-heading {
+    font-size: 100px;
+  }
+  .intro .intro-body .intro-text {
+    font-size: 26px;
+  }
+}*/

@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.css";
+@import "~animate.css/animate.min.css";
+
+@font-face {
+  font-family: "young";
+  src: url("/assets/fonts/young.ttf") format("ttf")
+}
+
+@font-face {
+  font-family: "bpt";
+  src: url("/assets/fonts/BPtypewriteSlashed.ttf") format("ttf")
+}
+
+body {
+    font-family: 'courier', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #888;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.btn {
+    font-family: 'courier', sans-serif;
+}
+
+.a {
+    font-family: 'courier', sans-serif;
+}
