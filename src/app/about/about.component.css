@@ -9,6 +9,11 @@
   z-index: 1;
 }
 
+.about-image {
+  /*height: 10%;*/
+  width: 30%;
+}
+
 .say-no {
   background-color: black;
   color: white;

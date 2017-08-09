@@ -2,14 +2,15 @@
   display: table;
   width: 100%;
   height: auto;
-  padding: 0px 0px 100px;
+  padding: 0px 0px 550px 0px;
   text-align: center;
   color: white;
-  background-color: black;
-  z-index: 1;
-}
-.intro-image {
-  /*z-index: 1;*/
+  background-color: transparent;
+  background: url("/assets/images/hk.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 /*@media (min-width: 768px) {
   .intro {
