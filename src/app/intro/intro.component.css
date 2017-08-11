@@ -2,8 +2,8 @@
   display: table;
   width: 100%;
   height: auto;
-  padding: 0px 0px 550px 0px;
-  text-align: center;
+  padding: 0px 8px 555px 0px;
+  text-align: left;
   color: white;
   background-color: transparent;
   background: url("/assets/images/hk.png") no-repeat center center;
@@ -12,15 +12,141 @@
   -o-background-size: cover;
   background-size: cover;
 }
-/*@media (min-width: 768px) {
-  .intro {
-    height: 100%;
-    padding: 0;
+
+.fa-caret-square-o-down {
+  color: grey;
+  animation: bounce 1s ease 6s infinite  alternate;
+  -webkit-animation: bounce 1s ease 6s infinite  alternate;
+}
+
+.css-typing p {
+  width: 26em;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 2s steps(40, end);
+}
+
+.css-typing p:nth-child(2) {
+  width: 24em;
+  white-space: nowrap;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-animation: type 2s steps(40, end) 2s;
+  animation: type2 2s steps(40, end) 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+  width: 30em;
+  white-space: nowrap;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-animation: type 2s steps(40, end) 4s;
+  animation: type3 2s steps(40, end) 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  from {
+    width: 0;
   }
-  .intro .intro-body .brand-heading {
-    font-size: 100px;
+}
+
+@-webkit-keyframes type {
+  from {
+    width: 0;
   }
-  .intro .intro-body .intro-text {
-    font-size: 26px;
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
   }
-}*/
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}

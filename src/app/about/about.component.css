@@ -2,19 +2,25 @@
   display: table;
   width: 100%;
   height: auto;
-  /*padding: 0 0;*/
+  padding: 100px 60px 400px 60px;
   text-align: center;
   color: white;
   background-color: black;
-  z-index: 1;
+  /*z-index: 1;*/
+  background-color: transparent;
+  background: url("/assets/images/lights.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .about-image {
   /*height: 10%;*/
-  width: 30%;
+  /*width: 30%;*/
 }
 
-.say-no {
+/*.say-no {
   background-color: black;
   color: white;
 }
@@ -22,7 +28,7 @@
 .say-yes {
   background-color: white;
   color: black;
-}
+}*/
 
 img.say-yes {
   height:100px;

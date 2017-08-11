@@ -8,19 +8,15 @@ import { Contact }    from './contact';
 })
 export class ContactFormComponent {
 
-  model = new Contact(1,
-                      'Jorge', 'Alexander',
-                      'jorgeNalexander1@gmail.com',
-                      'Contact me please!')
+  model = new Contact(1, '', '', '', '');
 
   submitted = false;
 
-  onSubmit() { this.submitted = true; }
-
-  // TODO: Remove this when we're done
-  get diagnostic() { return JSON.stringify(this.model); }
+  onSubmit() {
+    this.submitted = true;
+  }
 
   newContact() {
-    this.model = new Contact(42, '', '', '', '');
+    this.model = new Contact(1, '', '', '', '');
   }
 }
