@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {PageScrollConfig} from 'ng2-page-scroll';
+import { PageScrollConfig } from 'ng2-page-scroll';
 
 
 @Component({
@@ -12,9 +12,6 @@ import {PageScrollConfig} from 'ng2-page-scroll';
     <app-contact></app-contact>\
   '
 })
-
-// <app-pricing></app-pricing>\
-// <app-contact></app-contact>\
 
 export class AppComponent {
   constructor() {
