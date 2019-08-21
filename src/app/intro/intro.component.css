@@ -9,7 +9,6 @@
 .fa-at {
   color: #a0f7c3;
   opacity: 0;
-  /* text-align: center; */
   animation: fade 3s ease 8s infinite alternate;
   -webkit-animation: fade 3s ease 8s infinite alternate;
 }
