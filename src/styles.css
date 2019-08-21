@@ -5,36 +5,46 @@
 
 @font-face {
   font-family: "young";
-  src: url("/assets/fonts/young.ttf") format("ttf")
+  src: url("/assets/fonts/young.ttf") format("ttf");
 }
 
 @font-face {
   font-family: "bpt";
-  src: url("/assets/fonts/BPtypewriteSlashed.ttf") format("ttf")
+  src: url("/assets/fonts/BPtypewriteSlashed.ttf") format("ttf");
+}
+
+html {
+  background: url(/assets/images/hk.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 body {
-    font-family: 'courier', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #888;
-    line-height: 30px;
-    text-align: center;
-    position: relative;
+  background-color: transparent;
+  font-family: "courier", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #888;
+  line-height: 30px;
+  text-align: center;
+  position: relative;
 }
 
 .btn {
-    font-family: 'courier', sans-serif;
+  font-family: "courier", sans-serif;
 }
 
 .a {
-    font-family: 'courier', sans-serif;
+  font-family: "courier", sans-serif;
 }
 
-.ng-valid[required], .ng-valid.required  {
-  border-left: 5px solid #42A948; /* green */
+.ng-valid[required],
+.ng-valid.required {
+  border-left: 5px solid #42a948; /* green */
 }
 
-.ng-invalid:not(form)  {
+.ng-invalid:not(form) {
   border-left: 5px solid #a94442; /* red */
 }

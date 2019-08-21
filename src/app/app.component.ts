@@ -2,14 +2,12 @@ import { Component } from "@angular/core";
 
 @Component({
   selector: "app-root",
-  template:
-    "\
+  template: "\
     <app-navbar></app-navbar>\
     <app-intro></app-intro>\
-    <app-about></app-about>\
-    <app-services></app-services>\
-    <app-contact></app-contact>\
   "
+  // <app-services></app-services>\
+  //   <app-about></app-about>
 })
 export class AppComponent {
   constructor() {}
